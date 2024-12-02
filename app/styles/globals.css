@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-primary;
+  }
+
+  .h1 {
+    @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold text-text;
+  }
+
+  .h2 {
+    @apply text-[36px] xl:text-[50px] leading-[1.1] font-semibold text-text;
+  }
+
+  .h3 {
+    @apply text-[24px] xl:text-[36px] leading-[1.1] font-semibold text-text;
+  }
+
+  /* globals.css */
+
+  :root {
+    --text: #ffffff;
+    --accent: #ffb366;
+    --highlight: #f45d48;
+    /* add other variables as needed */
+  }
+
+  .dark {
+    --text: #ffffff;
+    --accent: #ffb366;
+    --highlight: #f45d48;
+  }
+
+  /* Snap Scroll Styles */
+  .snap-container {
+    scroll-snap-type: y mandatory;
+  }
+
+  .snap-item {
+    scroll-snap-align: start;
+  }
+}
