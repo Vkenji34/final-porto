@@ -23,10 +23,6 @@ const Home = () => {
             <Button variant="outline" size="lg" className="w-48 h-14 uppercase tracking-wider border-2 border-accent text-accent hover:bg-accent hover:text-white transition-all duration-300">
               Contact Me
             </Button>
-            <Socials 
-              containerStyles="flex gap-6" 
-              iconsStyles="w-12 h-12 border-2 border-accent rounded-full flex justify-center items-center text-accent text-2xl hover:bg-accent hover:text-white transition-all duration-300"
-            />
           </div>       
         </div>
 

@@ -65,7 +65,7 @@ export function AppleCarousel({ items }: CarouselProps) {
         {items.map((item, index) => (
           <div
             key={index}
-            className="flex-shrink-0 bg-black text-white rounded-lg shadow-lg p-6 w-80"
+            className="flex-shrink-0 bg-neutral-800 text-white rounded-lg shadow-lg p-6 w-80"
             style={{ height: "450px" }} // Fixed container size
           >
             {/* Title */}
@@ -142,9 +142,9 @@ export function AppleCarousel({ items }: CarouselProps) {
 export default function Projects() {
   const items: ProjectType[] = [
     {
-      title: "Aceternity UI",
-      description: "Customizable Tailwind CSS and Framer Motion Components.",
-      imageSrc: "/assets/photo.png",
+      title: "Kreate",
+      description: "A platform to help content creators increase their casflow and connect with their followers",
+      imageSrc: "/assets/kreate.png",
       techIcons: [
         { src: "/assets/react.svg", alt: "React" },
         { src: "/assets/tailwindcss.svg", alt: "Tailwind CSS" },
@@ -152,14 +152,24 @@ export default function Projects() {
       projectLink: "https://example.com",
     },
     {
-      title: "Next.js Project",
-      description: "A powerful React framework for modern web development.",
-      imageSrc: "/assets/nextjs.png",
+      title: "Kreate",
+      description: "A platform to help content creators increase their casflow and connect with their followers",
+      imageSrc: "/assets/kreate.png",
       techIcons: [
-        { src: "/assets/react.svg", alt: "Next.js" },
-        { src: "/assets/typescript.svg", alt: "TypeScript" },
+        { src: "/assets/react.svg", alt: "React" },
+        { src: "/assets/tailwindcss.svg", alt: "Tailwind CSS" },
       ],
-      projectLink: "https://nextjs.org",
+      projectLink: "https://example.com",
+    },
+    {
+      title: "Kreate",
+      description: "A platform to help content creators increase their casflow and connect with their followers",
+      imageSrc: "/assets/kreate.png",
+      techIcons: [
+        { src: "/assets/react.svg", alt: "React" },
+        { src: "/assets/tailwindcss.svg", alt: "Tailwind CSS" },
+      ],
+      projectLink: "https://example.com",
     },
   ];
 
