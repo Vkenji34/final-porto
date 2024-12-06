@@ -24,8 +24,8 @@ export default function Projects() {
       techIcons: [
         { src: "/assets/react.svg", alt: "React" },
         { src: "/assets/tailwindcss.svg", alt: "Tailwind CSS" },
-        { src: "/assets/swift.svg", alt: "Swift" },
-        { src: "/assets/nest.js.svg", alt: "NestJS" },
+        { src: "/assets/Swift.svg", alt: "Swift" },
+        { src: "/assets/Nest.js.svg", alt: "NestJS" },
         { src: "/assets/supabase.svg", alt: "Supabase" },
       ],
       projectLink: "https://kreate.gg",
@@ -48,7 +48,7 @@ export default function Projects() {
       role: "Fullstack Developer", // Added role
       imageSrc: "/assets/ox.png",
       techIcons: [
-        { src: "/assets/swift.svg", alt: "Swift" },
+        { src: "/assets/Swift.svg", alt: "Swift" },
       ],
       projectLink: "https://medium.com/@valentinuskenji4/building-ox-a-1rm-and-training-weight-calculator-for-progressive-overload-deec69051e88",
     },
@@ -59,8 +59,8 @@ export default function Projects() {
       role: "Project Manager | Coder", // Added role
       imageSrc: "/assets/shuttleofdestiny.png",
       techIcons: [
-        { src: "/assets/swift.svg", alt: "Swift" },
-        { src: "/assets/jira.svg", alt: "Jira" },
+        { src: "/assets/Swift.svg", alt: "Swift" },
+        { src: "/assets/Jira.svg", alt: "Jira" },
 
       ],
       projectLink: "https://medium.com/@valentinuskenji4/game-development-chronicles-crafting-shuttle-of-destiny-ba9af45e6be6",
@@ -72,7 +72,7 @@ export default function Projects() {
       role: "Designer | Coder", // Added role
       imageSrc: "/assets/huhapp.png",
       techIcons: [
-        { src: "/assets/swift.svg", alt: "Swift" },
+        { src: "/assets/Swift.svg", alt: "Swift" },
 
       ],
       projectLink: "https://medium.com/@valentinuskenji4/turning-translation-into-fun-how-i-created-a-game-to-help-people-learn-sign-language-c5102019deea",
