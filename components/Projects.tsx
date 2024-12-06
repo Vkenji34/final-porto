@@ -37,7 +37,7 @@ export default function Projects() {
       role: "Fullstack Developer", // Added role
       imageSrc: "/assets/Ezeat.png",
       techIcons: [
-        { src: "/assets/swift.svg", alt: "swift" },
+        { src: "/assets/Swift.svg", alt: "swift" },
       ],
       projectLink: "https://medium.com/@valentinuskenji4/ezeat-revolutionizing-weight-loss-for-indonesians-with-local-healthy-recipes-c028ae5ae89a",
     },
