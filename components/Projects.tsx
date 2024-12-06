@@ -68,7 +68,7 @@ export default function Projects() {
     {
       title: "Help us Hear!",
       description:
-        "A gamified AI and machine learning app using core ML to recognize spoken words and translate them into American Sign Language (ASL) gestures.",
+        "A gamified AI and machine learning app using core ML to recognize and learn American Sign Language (ASL) gestures.",
       role: "Designer | Coder", // Added role
       imageSrc: "/assets/huhapp.png",
       techIcons: [
