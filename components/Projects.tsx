@@ -55,7 +55,7 @@ export default function Projects() {
     {
       title: "Shuttle of Destiny",
       description:
-        "A narrative-driven simulation game blends strategic decision-making with dynamic storytelling, offering players a chance to shape their character’s destiny through their choices.",
+        "A narrative-driven simulation game that blends strategic decision-making with dynamic storytelling, offering players a chance to shape their character’s destiny through their choices.",
       role: "Project Manager | Coder", // Added role
       imageSrc: "/assets/shuttleofdestiny.png",
       techIcons: [
