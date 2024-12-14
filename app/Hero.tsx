@@ -22,8 +22,8 @@ const Home = () => {
           <div className="flex flex-col xl:flex-row items-center gap-4 mt-4">
             {/* Download CV Button */}
             <a
-              href="/assets/Kenji_CV.pdf" // Path to your CV file in the public directory
-              download="Kenji-CV.pdf" // File name for the download
+              href="/assets/CV.pdf" // Path to your CV file in the public directory
+              download="CV.pdf" // File name for the download
             >
               <Button
                 variant="outline"
