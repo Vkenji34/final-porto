@@ -23,7 +23,7 @@ const Home = () => {
             {/* Download CV Button */}
             <a
               href="/assets/CV.pdf" // Path to your CV file in the public directory
-              download="CV.pdf" // File name for the download
+              download="Valentinus_CV.pdf" // File name for the download
             >
               <Button
                 variant="outline"
