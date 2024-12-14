@@ -17,6 +17,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 
 export const metadata = {
+  
   title: "Kenji's Portfolio",
   description: "Valentinus Kenji | Developer & Enthusiast",
 };
@@ -30,6 +31,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
     <html lang="en" className={jetbrainsMono.variable}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico"/>
       </head>
       <body className="overflow-x-hidden">
         <StairTransition>
